@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DNI</title>
+  <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="cuadro" id="cuadro">
+    <form name="dni_formulario" id="form">
+      <fieldset>
+        <legend>Comprobación DNI</legend>
+        <br />
+        <label for="numeros" class="titulo">Dígitos</label><br />
+        <input type="text" id="numeros" name="numeros" class="entrada" onkeypress="handle(event)" /><br /><br />
+        <label for="letra" class="titulo">Letra</label><br />
+        <input type="text" id="letra" name="letra" class="entrada" onkeypress="handle(event)" /><br />
+        <br /><br />
+      </fieldset>
+      <br />
+      <input type="button" value="Validar" id="aceptar" onclick="validar()" />
+    </form>
+  </div>
+  <div class="resultado">
+    <fieldset>
+      <legend>Resultados</legend>
+      <br />
+      <h3>LA LETRA DEL DNI INDICADA</h3>
+      <br />
+      <p id="resultado"> </p>
+      <br>
+      <h3>TU NÚMERO DE DNI CORRECTO</h3>
+      <br />
+      <h1 id="dni_correcto"></h1>
+      <br />
+  </div>
+  </fieldset>
+  <script src="js/validar.js"></script>
+</body>
+
+</html>
