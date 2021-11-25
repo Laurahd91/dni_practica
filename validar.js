@@ -8,7 +8,7 @@ function validar() {
   if (isNaN(dni) || dni < 0 || dni > 99999999  ) {
     alert("Introduce un número correcto en el campo DNI");
 	form.reset();
-  } else if (dni == "" || dni == " ") {
+  } else if (dni.length <= 0 || dni == " ") {
     alert("El número no puede quedar vacío o con espacios");
 	form.reset();
   } else if (dni.length < 8) {
