@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DNI</title>
-  <link rel="stylesheet" type="text/css" href="estilos.css" />
+  <link rel="stylesheet" type="text/css" href="css/estilos.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -31,21 +31,24 @@
       <input type="button" value="Validar" id="aceptar" onclick="validar()" />
     </form>
   </div>
-  <fieldset>
-    <legend>Resultados</legend>
-    <div class="resultado">
-      <br />
-      <h3>LA LETRA DEL DNI INDICADA</h3>
-      <br />
-      <p id="resultado"> </p>
-      <br>
-      <h3>TU NÚMERO DE DNI CORRECTO</h3>
-      <br />
-      <p id="dni_correcto"></p>
-      <br />
-    </div>
-  </fieldset>
-  <script src="validar.js"></script>
+
+  <div class="resultado">
+    <form>
+      <fieldset>
+        <legend>Resultados</legend>
+        <br />
+        <h3>LA LETRA DEL DNI INDICADA</h3>
+        <br />
+        <p id="resultado"> </p>
+        <br>
+        <h3>TU NÚMERO DE DNI CORRECTO</h3>
+        <br />
+        <p id="dni_correcto"></p>
+        <br />
+      </fieldset>
+    </form>
+  </div>
+  <script src="js/validar.js"></script>
 </body>
 
 </html>
