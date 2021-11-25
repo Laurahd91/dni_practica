@@ -3,12 +3,6 @@ Comprueba si el DNI introducido es correcto.
 
 Se propone realizar una página web que calcule la letra del número de DNI introducido por el usuario.
 
-De acuerdo con la web del Ministerio del Interior el algoritmo para calcular el DNI es el siguiente; se divide el número entre 23 y el resto se sustituye por una letra que se determina por inspección mediante la siguiente tabla:
-
-
-
-Por ejemplo, si el número del DNI es 12345678 al dividirlo entre 23 da un resto de 14, luego la letra sería la Z: el resultado sería 12345678Z.
-
 El programa ha de cumplir los siguientes requisitos:
 
 Se ha de solicitar un número y una letra de DNI al usuario.
