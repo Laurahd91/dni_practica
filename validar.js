@@ -12,7 +12,7 @@ function validar() {
     alert("El número no puede quedar vacío o con espacios");
 	form.reset();
   } else if (dni.length < 8) {
-    alert("El número debe tener 8 caracteres");
+    alert("El número debe tener 8 dígitos");
 	form.reset();
   } else if (!pattern.test(letra) || letra.length > 1) {
     alert("Introduce una letra en el campo LETRA");
