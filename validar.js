@@ -9,10 +9,10 @@ function validar() {
     alert("Introduce un número correcto en el campo DNI");
 	form.reset();
   } else if (dni == "" || dni == " ") {
-    alert("El número debe tener 8 caracteres");
+    alert("El número no puede quedar vacío o con espacios");
 	form.reset();
   } else if (dni.length < 8) {
-    alert("El número no puede quedar vacío o con espacios");
+    alert("El número debe tener 8 caracteres");
 	form.reset();
   } else if (!pattern.test(letra) || letra.length > 1) {
     alert("Introduce una letra en el campo LETRA");
