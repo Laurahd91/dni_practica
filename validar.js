@@ -1,5 +1,5 @@
 function validar() {
-  let letras = ["T","R","W","A","G","M","Y","F","P","D","X","B","N","J","Z","S","Q","V","H","L","C","K","E","T"];
+  let letras = ["T","R","W","A","G","M","Y","F","P","D","X","B","N","J","Z","S","Q","V","H","L","C","K","E"];
   dni = document.getElementById("numeros").value;
   letr = document.getElementById("letra").value;
   letra = letr.toUpperCase();
