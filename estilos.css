@@ -3,19 +3,13 @@
 	padding: 0px;
 }
 
-html{
-        overflow: hidden;
-        height: 100%;    
-}
-
 body {
 	background: url("imagenes/fondo.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
    	-moz-background-size: cover;
     	-o-background-size: cover;
     	background-size: cover;
-	overflow: auto;
-	height: 100%;
+	background-attachment: fixed;
 }
 
 #cuadro {
@@ -128,15 +122,3 @@ h1, h3 {
 	}
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
-{
-    body{
-        overflow: auto;
-        height: 100%;
-    }
-
-    html{
-        overflow: hidden;
-        height: 100%;    
-    }
-}
