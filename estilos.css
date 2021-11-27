@@ -10,6 +10,7 @@ body {
     	-o-background-size: cover;
     	background-size: cover;
 	overflow: auto;
+	height: 100%;
 }
 
 #cuadro {
@@ -120,4 +121,12 @@ h1, h3 {
 	#aceptar{
 		width: 30%;
 	}
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
+{
+    body{
+        overflow: auto;
+        height: 100%;
+    }
 }
