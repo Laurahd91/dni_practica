@@ -4,7 +4,11 @@
 }
 
 body {
-	background: url("imagenes/fondo.jpg");
+	background: url("imagenes/fondo.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
 }
 
 #cuadro {
@@ -73,18 +77,19 @@ legend{
 	color: #ffffff;
 	margin: auto;
 	margin-top: 80px;
+	margin-bottom:100px;
 	padding: 5px 5px 30px 5px;
 	border-top: 35px solid #050a0e;
 	border-right: 35px solid #050a0e;
 	border-left: 35px solid #050a0e;
 	border-bottom: 10px solid #050a0e;
 	border-radius: 6px;
-    text-align: center;
+    	text-align: center;
 	opacity: 0.9;
 }
 
 .resultado p {
-    text-align: center;
+   	text-align: center;
 	font-family: 'Playfair Display' , sans-serif;
 	font-weight: 400;
 }
