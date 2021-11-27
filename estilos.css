@@ -12,7 +12,7 @@ body {
 }
 
 #cuadro {
-    width:60%; 
+   	width:60%; 
 	background : #050a0e;
 	color: #ffffff;
 	margin: auto;
@@ -23,7 +23,7 @@ body {
 	border-left: 35px solid #050a0e;
 	border-bottom: 10px solid #050a0e;
 	border-radius: 6px;
-    text-align: center;
+    	text-align: center;
 	opacity: 0.8;
 }
 
@@ -40,7 +40,7 @@ legend{
 	font-family: 'Playfair Display' , sans-serif;
 	font-style: italic;
 	font-weight: 600;
-    font-size:18px;
+    	font-size:18px;
 }
 
 .titulo {
@@ -65,10 +65,10 @@ legend{
 #aceptar:hover{
 	color:#000000!important;
    	background: #ffffff;
-    transition: all 1.5s ease; 
-    cursor:pointer;
+    	transition: all 1.5s ease; 
+    	cursor:pointer;
 	font-weight: 800;
-    opacity:0.8;
+    	opacity:0.8;
 }
 
 .resultado {
