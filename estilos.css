@@ -127,3 +127,16 @@ h1, h3 {
 		width: 30%;
 	}
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) 
+{
+    body{
+        overflow: auto;
+        height: 100%;
+    }
+
+    html{
+        overflow: hidden;
+        height: 100%;    
+    }
+}
